@@ -41,7 +41,6 @@ namespace GetCetNumber
                 strName[i] = sr.ReadLine();
             }
 
-            fs.Close();
             sr.Close();
         }
 
@@ -96,7 +95,6 @@ namespace GetCetNumber
                 stu4[i] = CutNumber4(strTemp);
             }
 
-            fs.Close();
             sr.Close();
         }
 
@@ -117,7 +115,6 @@ namespace GetCetNumber
                 stu6[i] = CutNumber6(strTemp);
             }
 
-            fs.Close();
             sr.Close();
         }
 
